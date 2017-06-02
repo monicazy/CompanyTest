@@ -1,0 +1,50 @@
+{
+  "uid" : "79a71bf8608ffc49",
+  "name" : "test_case_login[-1-'NoneType' object has no attribute 'status_code':\\u672a\\u77e5\\u9519\\u8bef(\\u63a5\\u53e3\\u8bf7\\u6c42\\u8d85\\u65f6\\u6216\\u4f20\\u9012\\u6570\\u636e\\u9519\\u8bef\\u7b49)-220.0-Invalid account and.or password.-\\u7528\\u6237\\u540d\\u672a\\u6fc0\\u6d3b]",
+  "title" : "Test case login [-1-'NoneType' object has no attribute 'status_code':\\u672a\\u77e5\\u9519\\u8bef(\\u63a5\\u53e3\\u8bf7\\u6c42\\u8d85\\u65f6\\u6216\\u4f20\\u9012\\u6570\\u636e\\u9519\\u8bef\\u7b49)-220.0-Invalid account and.or password.-\\u7528\\u6237\\u540d\\u672a\\u6fc0\\u6d3b]",
+  "time" : {
+    "start" : 1496309864729,
+    "stop" : 1496309864734,
+    "duration" : 5
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert -1 == 220.0",
+    "stackTrace" : "act_code = -1\nact_msg = \"'NoneType' object has no attribute 'status_code':未知错误(接口请求超时或传递数据错误等)\"\nexp_code = 220.0, exp_msg = 'Invalid account and/or password.'\ncase_name = '用户名未激活'\n\n    @allure.feature(sheet.name)  # @allure.feature('（Feature1特征）')\n    @pytest.mark.parametrize('act_code, act_msg, exp_code, exp_msg, case_name', ResultParam(idx).value)\n    def test_fn(act_code, act_msg, exp_code, exp_msg, case_name):\n>       assert act_code == exp_code\nE       assert -1 == 220.0\n\ninitTest.py:21: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "f859d58bfbbdf5e9",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "login"
+  }, {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "thread",
+    "value" : "4244-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

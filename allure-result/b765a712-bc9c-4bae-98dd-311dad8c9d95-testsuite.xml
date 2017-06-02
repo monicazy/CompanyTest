@@ -1,0 +1,225 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1496389678192" stop="1496389678336">
+  <name>initTest</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1496389678192" status="passed" stop="1496389678199">
+      <name>test_case_login[200-Operation is successful.-200.0-Operation is successful.-登录成功]</name>
+      <attachments>
+        <attachment source="43fd1cd3-5bd0-42d0-b273-2828f3af99a5-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="login"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678202" status="passed" stop="1496389678205">
+      <name>test_case_login[220-Invalid account and.or password.-220.0-Invalid account and.or password.-用户名错误]</name>
+      <attachments>
+        <attachment source="425432a2-b230-4767-bfc7-bb07e25975e2-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="login"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678208" status="failed" stop="1496389678259">
+      <name>test_case_login[400-Invalid request data format.-220.0-Invalid account and.or password.-密码错误]</name>
+      <failure>
+        <message>AssertionError: assert 400 == 220.0</message>
+        <stack-trace>act_code = 400, act_msg = 'Invalid request data format.', exp_code = 220.0
+exp_msg = 'Invalid account and/or password.', case_name = '密码错误'
+
+    @allure.feature(sheet.name)  # @allure.feature('（Feature1特征）')
+    @pytest.mark.parametrize('act_code, act_msg, exp_code, exp_msg, case_name', ResultParam(idx).value)
+    def test_fn(act_code, act_msg, exp_code, exp_msg, case_name):
+&gt;       assert act_code == exp_code
+E       assert 400 == 220.0
+
+test2\initTest.py:23: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="login"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678260" status="passed" stop="1496389678263">
+      <name>test_case_login[220-Invalid account and.or password.-220.0-Invalid account and.or password.-用户名未激活]</name>
+      <attachments>
+        <attachment source="ecd58981-6ead-4b6e-8148-37817ed57aa2-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="login"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678266" status="passed" stop="1496389678270">
+      <name>test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-用户名为none]</name>
+      <attachments>
+        <attachment source="a62a7fc5-c8c1-4f6a-9a0e-5c92cc2e3754-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="login"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678273" status="passed" stop="1496389678275">
+      <name>test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-密码为none]</name>
+      <attachments>
+        <attachment source="61e00426-014e-43d7-b593-543406e4f6be-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="login"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678279" status="passed" stop="1496389678282">
+      <name>test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-用户名为空]</name>
+      <attachments>
+        <attachment source="b59fa9db-f604-4c06-9adc-603cb795e0b6-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="login"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678285" status="passed" stop="1496389678288">
+      <name>test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-密码为空]</name>
+      <attachments>
+        <attachment source="88838e0a-8fbf-4a8c-805f-4002a230f8c0-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="login"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678291" status="passed" stop="1496389678294">
+      <name>test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-用户名字段缺失]</name>
+      <attachments>
+        <attachment source="c77170ff-9cfd-4878-9cf0-d3e0c7b2767a-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="login"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678297" status="passed" stop="1496389678300">
+      <name>test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-密码字段缺失]</name>
+      <attachments>
+        <attachment source="968a9499-e696-42cf-bc21-92581529c838-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="login"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678303" status="passed" stop="1496389678306">
+      <name>test_case_role[200-Operation is successful.-200.0-Operation is successful.-获取权限子账号的信息]</name>
+      <attachments>
+        <attachment source="1b4ed242-d2a1-467b-9675-c3ba960a4aa3-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="role"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678309" status="passed" stop="1496389678312">
+      <name>test_case_role[401-Authenticated failed.-401.0-Authenticated failed.-无权限获取权限子账号信息]</name>
+      <attachments>
+        <attachment source="4304b355-18bd-4e5c-b14f-930ad8ea83d0-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="role"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678315" status="passed" stop="1496389678317">
+      <name>test_case_role[200-Operation is successful.-200.0-Operation is successful.-获取单个子角色信息]</name>
+      <attachments>
+        <attachment source="98d04d94-eb00-44d8-aa0d-fbeb24c8a077-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="role"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678321" status="passed" stop="1496389678324">
+      <name>test_case_role[401-Authenticated failed.-401.0-Authenticated failed.-无权限获取单个子角色信息]</name>
+      <attachments>
+        <attachment source="e45c0fcd-cab6-4c21-9ad2-a474e03465bb-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="role"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678327" status="passed" stop="1496389678329">
+      <name>test_case_role[200-Operation is successful.-200.0-Operation is successful.-获取角色的所有权限]</name>
+      <attachments>
+        <attachment source="b5486999-b975-4de3-bbb6-0d94ca529337-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="role"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1496389678332" status="passed" stop="1496389678336">
+      <name>test_case_role[401-Authenticated failed.-401.0-Authenticated failed.-无权限获取角色的所有权限]</name>
+      <attachments>
+        <attachment source="18ca118d-8715-4b96-97df-5d14d0d083b3-attachment.txt" title="Captured stderr call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="role"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3212-MainThread"/>
+        <label name="host" value="USER-20150424AG"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

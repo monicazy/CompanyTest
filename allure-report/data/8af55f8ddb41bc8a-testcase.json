@@ -1,0 +1,53 @@
+{
+  "uid" : "8af55f8ddb41bc8a",
+  "name" : "test_case_role[200-Operation is successful.-200.0-Operation is successful.-获取单个子角色信息]",
+  "title" : "Test case role [200-Operation is successful.-200.0-Operation is successful.-获取单个子角色信息]",
+  "time" : {
+    "start" : 1496388625816,
+    "stop" : 1496388625819,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ca0a6e7fe310a02a",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stderr call",
+    "source" : "76120b40-5a0b-4e6b-bbc6-e9cc6b9acbf9-attachment.txt",
+    "type" : "text/plain",
+    "size" : 38,
+    "uid" : "8e0b041d1da209c3"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "role"
+  }, {
+    "name" : "thread",
+    "value" : "1136-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

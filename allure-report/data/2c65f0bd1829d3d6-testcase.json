@@ -1,0 +1,53 @@
+{
+  "uid" : "2c65f0bd1829d3d6",
+  "name" : "test_case_role[401-Authenticated failed.-401.0-Authenticated failed.-\\u65e0\\u6743\\u9650\\u83b7\\u53d6\\u5355\\u4e2a\\u5b50\\u89d2\\u8272\\u4fe1\\u606f]",
+  "title" : "Test case role [401-Authenticated failed.-401.0-Authenticated failed.-\\u65e0\\u6743\\u9650\\u83b7\\u53d6\\u5355\\u4e2a\\u5b50\\u89d2\\u8272\\u4fe1\\u606f]",
+  "time" : {
+    "start" : 1496386358314,
+    "stop" : 1496386358316,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "a9d7d4e24e22f153",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stderr call",
+    "source" : "47f932cb-b9d8-49ae-b3ab-687417c7ff92-attachment.txt",
+    "type" : "text/plain",
+    "size" : 47,
+    "uid" : "262a2e0c714fb664"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "role"
+  }, {
+    "name" : "thread",
+    "value" : "7052-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

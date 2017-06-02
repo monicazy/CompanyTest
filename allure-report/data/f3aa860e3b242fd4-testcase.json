@@ -1,0 +1,53 @@
+{
+  "uid" : "f3aa860e3b242fd4",
+  "name" : "test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-密码为none]",
+  "title" : "Test case login [400-Invalid request data format.-400.0-Invalid request data format.-密码为none]",
+  "time" : {
+    "start" : 1496388625916,
+    "stop" : 1496388625920,
+    "duration" : 4
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ca0a6e7fe310a02a",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stderr call",
+    "source" : "e9434ebc-3538-409e-8d18-9e5a28e63ca8-attachment.txt",
+    "type" : "text/plain",
+    "size" : 24,
+    "uid" : "4f22316e67ad6c39"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "login"
+  }, {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "1136-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

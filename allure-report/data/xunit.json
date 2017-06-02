@@ -1,0 +1,203 @@
+{
+  "time" : {
+    "start" : 1496389678192,
+    "stop" : 1496389678336,
+    "duration" : 144
+  },
+  "testSuites" : [ {
+    "uid" : "5eac9ae97ece3f1c",
+    "name" : "initTest",
+    "title" : "Init test",
+    "time" : {
+      "start" : 1496389678192,
+      "stop" : 1496389678336,
+      "duration" : 144
+    },
+    "statistic" : {
+      "total" : 16,
+      "passed" : 15,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "820d976da585c2ac",
+      "name" : "test_case_login[200-Operation is successful.-200.0-Operation is successful.-登录成功]",
+      "title" : "Test case login [200-Operation is successful.-200.0-Operation is successful.-登录成功]",
+      "time" : {
+        "start" : 1496389678192,
+        "stop" : 1496389678199,
+        "duration" : 7
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6d450bfb34d492ec",
+      "name" : "test_case_login[220-Invalid account and.or password.-220.0-Invalid account and.or password.-用户名错误]",
+      "title" : "Test case login [220-Invalid account and.or password.-220.0-Invalid account and.or password.-用户名错误]",
+      "time" : {
+        "start" : 1496389678202,
+        "stop" : 1496389678205,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "401d7e0b1cee059f",
+      "name" : "test_case_login[400-Invalid request data format.-220.0-Invalid account and.or password.-密码错误]",
+      "title" : "Test case login [400-Invalid request data format.-220.0-Invalid account and.or password.-密码错误]",
+      "time" : {
+        "start" : 1496389678208,
+        "stop" : 1496389678259,
+        "duration" : 51
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "7298edf07d6d4a67",
+      "name" : "test_case_login[220-Invalid account and.or password.-220.0-Invalid account and.or password.-用户名未激活]",
+      "title" : "Test case login [220-Invalid account and.or password.-220.0-Invalid account and.or password.-用户名未激活]",
+      "time" : {
+        "start" : 1496389678260,
+        "stop" : 1496389678263,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9b239ad278d9241c",
+      "name" : "test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-用户名为none]",
+      "title" : "Test case login [400-Invalid request data format.-400.0-Invalid request data format.-用户名为none]",
+      "time" : {
+        "start" : 1496389678266,
+        "stop" : 1496389678270,
+        "duration" : 4
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a52386c911404684",
+      "name" : "test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-密码为none]",
+      "title" : "Test case login [400-Invalid request data format.-400.0-Invalid request data format.-密码为none]",
+      "time" : {
+        "start" : 1496389678273,
+        "stop" : 1496389678275,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f2becff359130b4",
+      "name" : "test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-用户名为空]",
+      "title" : "Test case login [400-Invalid request data format.-400.0-Invalid request data format.-用户名为空]",
+      "time" : {
+        "start" : 1496389678279,
+        "stop" : 1496389678282,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "3bca04b282d28745",
+      "name" : "test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-密码为空]",
+      "title" : "Test case login [400-Invalid request data format.-400.0-Invalid request data format.-密码为空]",
+      "time" : {
+        "start" : 1496389678285,
+        "stop" : 1496389678288,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ce279b9fb15ed097",
+      "name" : "test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-用户名字段缺失]",
+      "title" : "Test case login [400-Invalid request data format.-400.0-Invalid request data format.-用户名字段缺失]",
+      "time" : {
+        "start" : 1496389678291,
+        "stop" : 1496389678294,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a135ea6c6592911e",
+      "name" : "test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-密码字段缺失]",
+      "title" : "Test case login [400-Invalid request data format.-400.0-Invalid request data format.-密码字段缺失]",
+      "time" : {
+        "start" : 1496389678297,
+        "stop" : 1496389678300,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6b1ee9c13beabc54",
+      "name" : "test_case_role[200-Operation is successful.-200.0-Operation is successful.-获取权限子账号的信息]",
+      "title" : "Test case role [200-Operation is successful.-200.0-Operation is successful.-获取权限子账号的信息]",
+      "time" : {
+        "start" : 1496389678303,
+        "stop" : 1496389678306,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "670ffb265d55b1c",
+      "name" : "test_case_role[401-Authenticated failed.-401.0-Authenticated failed.-无权限获取权限子账号信息]",
+      "title" : "Test case role [401-Authenticated failed.-401.0-Authenticated failed.-无权限获取权限子账号信息]",
+      "time" : {
+        "start" : 1496389678309,
+        "stop" : 1496389678312,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "80e10dd671596d3d",
+      "name" : "test_case_role[200-Operation is successful.-200.0-Operation is successful.-获取单个子角色信息]",
+      "title" : "Test case role [200-Operation is successful.-200.0-Operation is successful.-获取单个子角色信息]",
+      "time" : {
+        "start" : 1496389678315,
+        "stop" : 1496389678317,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "fb2caa7def755e32",
+      "name" : "test_case_role[401-Authenticated failed.-401.0-Authenticated failed.-无权限获取单个子角色信息]",
+      "title" : "Test case role [401-Authenticated failed.-401.0-Authenticated failed.-无权限获取单个子角色信息]",
+      "time" : {
+        "start" : 1496389678321,
+        "stop" : 1496389678324,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "210c1ee22f99ee1",
+      "name" : "test_case_role[200-Operation is successful.-200.0-Operation is successful.-获取角色的所有权限]",
+      "title" : "Test case role [200-Operation is successful.-200.0-Operation is successful.-获取角色的所有权限]",
+      "time" : {
+        "start" : 1496389678327,
+        "stop" : 1496389678329,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "19c3b161083b531d",
+      "name" : "test_case_role[401-Authenticated failed.-401.0-Authenticated failed.-无权限获取角色的所有权限]",
+      "title" : "Test case role [401-Authenticated failed.-401.0-Authenticated failed.-无权限获取角色的所有权限]",
+      "time" : {
+        "start" : 1496389678332,
+        "stop" : 1496389678336,
+        "duration" : 4
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "8104c2fb01c5c57e",
+  "name" : "test_case_login[220-Invalid account and.or password.-220.0-Invalid account and.or password.-\\u7528\\u6237\\u540d\\u672a\\u6fc0\\u6d3b]",
+  "title" : "Test case login [220-Invalid account and.or password.-220.0-Invalid account and.or password.-\\u7528\\u6237\\u540d\\u672a\\u6fc0\\u6d3b]",
+  "time" : {
+    "start" : 1496384155129,
+    "stop" : 1496384155132,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "63918a7c15489a21",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stderr call",
+    "source" : "8c66c8bb-b051-46e2-8db9-982fcc5ebadb-attachment.txt",
+    "type" : "text/plain",
+    "size" : 29,
+    "uid" : "2d295fc6c21d5f19"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "login"
+  }, {
+    "name" : "thread",
+    "value" : "6020-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

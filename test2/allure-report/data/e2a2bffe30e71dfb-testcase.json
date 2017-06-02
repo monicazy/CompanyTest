@@ -1,0 +1,41 @@
+{
+  "uid" : "e2a2bffe30e71dfb",
+  "name" : "initTest",
+  "title" : "Init test",
+  "time" : {
+    "start" : 1496302111709,
+    "stop" : 1496302111709,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "failed",
+    "stackTrace" : "ImportError while importing test module 'F:\\PythonTest\\test2\\initTest.py'.\nHint: make sure your test modules/packages have valid Python names.\nTraceback:\ninitTest.py:5: in <module>\n    from test2.Parameter.resultParameter import ResultParam\nE   ImportError: No module named 'test2'"
+  },
+  "description" : {
+    "value" : "This is the tests collection phase. Failures are modules that failed to collect.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "f91d8165a12c8d9",
+    "name" : "test_collection_phase",
+    "title" : "Collection phase"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Collection phase"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_collection_phase"
+  } ],
+  "parameters" : [ ]
+}

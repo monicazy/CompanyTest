@@ -1,0 +1,53 @@
+{
+  "uid" : "b233fdab314f1399",
+  "name" : "test_case_login[220-Invalid account and.or password.-220.0-Invalid account and.or password.-用户名错误]",
+  "title" : "Test case login [220-Invalid account and.or password.-220.0-Invalid account and.or password.-用户名错误]",
+  "time" : {
+    "start" : 1496388625846,
+    "stop" : 1496388625850,
+    "duration" : 4
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ca0a6e7fe310a02a",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stderr call",
+    "source" : "aae666bb-27e4-4b19-9d61-cd9037ffe415-attachment.txt",
+    "type" : "text/plain",
+    "size" : 26,
+    "uid" : "12ba937085a2077e"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "login"
+  }, {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "1136-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

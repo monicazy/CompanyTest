@@ -1,0 +1,53 @@
+{
+  "uid" : "40de59140fa2992d",
+  "name" : "test_case_role[200-Operation is successful.-200.0-Operation is successful.-\\u83b7\\u53d6\\u5355\\u4e2a\\u5b50\\u89d2\\u8272\\u4fe1\\u606f]",
+  "title" : "Test case role [200-Operation is successful.-200.0-Operation is successful.-\\u83b7\\u53d6\\u5355\\u4e2a\\u5b50\\u89d2\\u8272\\u4fe1\\u606f]",
+  "time" : {
+    "start" : 1496387676452,
+    "stop" : 1496387676455,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "35d83a3e308f0aaf",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stderr call",
+    "source" : "39f68a30-b46f-40b5-8b30-73fcfdc5174b-attachment.txt",
+    "type" : "text/plain",
+    "size" : 38,
+    "uid" : "6c327745e289885f"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "role"
+  }, {
+    "name" : "thread",
+    "value" : "1864-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

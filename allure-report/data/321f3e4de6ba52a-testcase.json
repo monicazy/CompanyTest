@@ -1,0 +1,53 @@
+{
+  "uid" : "321f3e4de6ba52a",
+  "name" : "test_case_login[400-Invalid request data format.-400.0-Invalid request data format.-\\u7528\\u6237\\u540d\\u4e3a\\u7a7a]",
+  "title" : "Test case login [400-Invalid request data format.-400.0-Invalid request data format.-\\u7528\\u6237\\u540d\\u4e3a\\u7a7a]",
+  "time" : {
+    "start" : 1496386358272,
+    "stop" : 1496386358275,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "a9d7d4e24e22f153",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stderr call",
+    "source" : "c46c2a77-6673-4c49-84dc-eb38044d2591-attachment.txt",
+    "type" : "text/plain",
+    "size" : 26,
+    "uid" : "5fb9f11f2b3b0dd6"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "login"
+  }, {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7052-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

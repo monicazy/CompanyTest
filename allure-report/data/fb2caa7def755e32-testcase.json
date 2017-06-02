@@ -1,0 +1,53 @@
+{
+  "uid" : "fb2caa7def755e32",
+  "name" : "test_case_role[401-Authenticated failed.-401.0-Authenticated failed.-无权限获取单个子角色信息]",
+  "title" : "Test case role [401-Authenticated failed.-401.0-Authenticated failed.-无权限获取单个子角色信息]",
+  "time" : {
+    "start" : 1496389678321,
+    "stop" : 1496389678324,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "5eac9ae97ece3f1c",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stderr call",
+    "source" : "e45c0fcd-cab6-4c21-9ad2-a474e03465bb-attachment.txt",
+    "type" : "text/plain",
+    "size" : 47,
+    "uid" : "45302cc37b1655cb"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "thread",
+    "value" : "3212-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "role"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

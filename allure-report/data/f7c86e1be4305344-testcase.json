@@ -1,0 +1,50 @@
+{
+  "uid" : "f7c86e1be4305344",
+  "name" : "test_case_login[-1-'NoneType' object has no attribute 'status_code':\\u672a\\u77e5\\u9519\\u8bef(\\u63a5\\u53e3\\u8bf7\\u6c42\\u8d85\\u65f6\\u6216\\u4f20\\u9012\\u6570\\u636e\\u9519\\u8bef\\u7b49)-400.0-Invalid request data format.-\\u7528\\u6237\\u540d\\u5b57\\u6bb5\\u7f3a\\u5931]",
+  "title" : "Test case login [-1-'NoneType' object has no attribute 'status_code':\\u672a\\u77e5\\u9519\\u8bef(\\u63a5\\u53e3\\u8bf7\\u6c42\\u8d85\\u65f6\\u6216\\u4f20\\u9012\\u6570\\u636e\\u9519\\u8bef\\u7b49)-400.0-Invalid request data format.-\\u7528\\u6237\\u540d\\u5b57\\u6bb5\\u7f3a\\u5931]",
+  "time" : {
+    "start" : 1496382757130,
+    "stop" : 1496382757135,
+    "duration" : 5
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert -1 == 400.0",
+    "stackTrace" : "act_code = -1\nact_msg = \"'NoneType' object has no attribute 'status_code':未知错误(接口请求超时或传递数据错误等)\"\nexp_code = 400.0, exp_msg = 'Invalid request data format.'\ncase_name = '用户名字段缺失'\n\n    @allure.feature(sheet.name)  # @allure.feature('（Feature1特征）')\n    @pytest.mark.parametrize('act_code, act_msg, exp_code, exp_msg, case_name', ResultParam(idx).value)\n    def test_fn(act_code, act_msg, exp_code, exp_msg, case_name):\n>       assert act_code == exp_code\nE       assert -1 == 400.0\n\ninitTest.py:19: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "33f55e7ab9a866a",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "login"
+  }, {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "thread",
+    "value" : "2600-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

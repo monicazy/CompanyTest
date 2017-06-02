@@ -1,0 +1,53 @@
+{
+  "uid" : "cab8b5a2ba0308be",
+  "name" : "test_case_login[200-Operation is successful.-200.0-Operation is successful.-\\u767b\\u5f55\\u6210\\u529f]",
+  "title" : "Test case login [200-Operation is successful.-200.0-Operation is successful.-\\u767b\\u5f55\\u6210\\u529f]",
+  "time" : {
+    "start" : 1496387676324,
+    "stop" : 1496387676331,
+    "duration" : 7
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "35d83a3e308f0aaf",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stderr call",
+    "source" : "f1e75797-3942-48a3-8a64-401530362ae2-attachment.txt",
+    "type" : "text/plain",
+    "size" : 23,
+    "uid" : "c8de8919c9813af6"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "login"
+  }, {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "1864-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

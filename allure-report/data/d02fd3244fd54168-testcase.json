@@ -1,0 +1,50 @@
+{
+  "uid" : "d02fd3244fd54168",
+  "name" : "test_case_role[401-Authenticated failed.-200.0-Operation is successful.-\\u83b7\\u53d6\\u5355\\u4e2a\\u5b50\\u89d2\\u8272\\u4fe1\\u606f]",
+  "title" : "Test case role [401-Authenticated failed.-200.0-Operation is successful.-\\u83b7\\u53d6\\u5355\\u4e2a\\u5b50\\u89d2\\u8272\\u4fe1\\u606f]",
+  "time" : {
+    "start" : 1496384155159,
+    "stop" : 1496384155164,
+    "duration" : 5
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert 401 == 200.0",
+    "stackTrace" : "act_code = 401, act_msg = 'Authenticated failed.', exp_code = 200.0\nexp_msg = 'Operation is successful.', case_name = '获取单个子角色信息'\n\n    @allure.feature(sheet.name)  # @allure.feature('（Feature1特征）')\n    @pytest.mark.parametrize('act_code, act_msg, exp_code, exp_msg, case_name', ResultParam(idx).value)\n    def test_fn(act_code, act_msg, exp_code, exp_msg, case_name):\n>       assert act_code == exp_code\nE       assert 401 == 200.0\n\ninitTest.py:19: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "63918a7c15489a21",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "6020-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "role"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}

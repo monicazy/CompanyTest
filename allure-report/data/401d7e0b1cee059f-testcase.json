@@ -1,0 +1,50 @@
+{
+  "uid" : "401d7e0b1cee059f",
+  "name" : "test_case_login[400-Invalid request data format.-220.0-Invalid account and.or password.-密码错误]",
+  "title" : "Test case login [400-Invalid request data format.-220.0-Invalid account and.or password.-密码错误]",
+  "time" : {
+    "start" : 1496389678208,
+    "stop" : 1496389678259,
+    "duration" : 51
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert 400 == 220.0",
+    "stackTrace" : "act_code = 400, act_msg = 'Invalid request data format.', exp_code = 220.0\nexp_msg = 'Invalid account and/or password.', case_name = '密码错误'\n\n    @allure.feature(sheet.name)  # @allure.feature('（Feature1特征）')\n    @pytest.mark.parametrize('act_code, act_msg, exp_code, exp_msg, case_name', ResultParam(idx).value)\n    def test_fn(act_code, act_msg, exp_code, exp_msg, case_name):\n>       assert act_code == exp_code\nE       assert 400 == 220.0\n\ntest2\\initTest.py:23: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "5eac9ae97ece3f1c",
+    "name" : "initTest",
+    "title" : "Init test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "login"
+  }, {
+    "name" : "suite-name",
+    "value" : "initTest"
+  }, {
+    "name" : "thread",
+    "value" : "3212-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "USER-20150424AG"
+  } ],
+  "parameters" : [ ]
+}
