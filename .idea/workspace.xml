@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="748e6c2a-4752-4378-8a44-bdb3371bb517" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test2.0/test/Case/test_case.xls" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/testing_readingExcel.py" afterPath="$PROJECT_DIR$/test1/testing_readingExcel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/testing_test.py" afterPath="$PROJECT_DIR$/test1/testing_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1/testing_testApi.py" afterPath="$PROJECT_DIR$/test1/testing_testApi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/Cookie/Cookies.py" afterPath="$PROJECT_DIR$/test2/Cookie/Cookies.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/Cookie/config.ini" afterPath="$PROJECT_DIR$/test2/Cookie/config.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/Method/TestMethod.py" afterPath="$PROJECT_DIR$/test2/Method/TestMethod.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/Parameter/resultParameter.py" afterPath="$PROJECT_DIR$/test2/Parameter/resultParameter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/ReadExcel/__init__.py" afterPath="$PROJECT_DIR$/test2/ReadExcel/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/ReadExcel/readExcel.py" afterPath="$PROJECT_DIR$/test2/ReadExcel/readExcel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/Result/Result.py" afterPath="$PROJECT_DIR$/test2/Result/Result.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2/initTest.py" afterPath="$PROJECT_DIR$/test2/initTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +25,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="initTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="initTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test2/initTest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="676">
               <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -94,6 +93,7 @@
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/_pytest/python.py" />
         <option value="$PROJECT_DIR$/initTest.py" />
         <option value="$PROJECT_DIR$/test2/initTest.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -597,11 +597,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50270855" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50270855" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -686,7 +686,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test2.0/test/Cookie/Cookies.py" />
     <entry file="file://$PROJECT_DIR$/test2.0/test/Result/Result.py" />
     <entry file="file://$PROJECT_DIR$/test2.0/test/Parameter/resultParameter.py" />
     <entry file="file://$PROJECT_DIR$/test2.0/test/Cookie/__init__.py" />
@@ -891,6 +890,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
           <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
           <folding />
         </state>
       </provider>
