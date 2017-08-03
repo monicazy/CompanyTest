@@ -1,0 +1,14 @@
+1.安装pytest_allure_adaptor命令：pip install pytest_allure_adaptor
+
+2.在cmd命令行执行测试代码的命令：
+py.test 测试用例目录 --alluredir ./allure-result
+
+3.生成report的命令：allure generate allure-result
+
+4.打开报告的命令：allure report opens
+
+扩展知识：
+unittest和py.test
+http://agiletesting.blogspot.com/2005/01/python-unit-testing-part-1-unittest.html
+
+http://agiletesting.blogspot.com/2005/01/python-unit-testing-part-3-pytest-tool.html

@@ -1,0 +1,38 @@
+一、本地建立git仓库
+
+1.生成ssh key命令：ssh-keygen -t rsa -C zhouyang@supeq.com（自己的邮箱地址）,然后在github的Settings里添加，密钥在C盘，user，XXX，.ssh目录里，id_rsa.pub文件
+
+2.进入要建立git仓库的地址命令：cd F:/XXXX文件名
+
+3.创建本地库，在文件夹里，输入命令：git init
+
+4.链接远程的仓库地址：git remote add orgin git_url（为仓库地址），在添加的时候可能会出现fatal: remote origin already exists.的报错，先输入git remote rm orgin，再输入git remote add orgin XXXXXXXXXX
+
+5.pull拉取远程库，输入命令:先git pull orgin XXX（分支名）
+
+6.再查看修改的状态命令：git status
+
+7.添加文件命令：git add XXX（文件名包括后缀） git add .为添加所有改动的文件
+
+8.提交命令:git commit -m “XXX”（注释）
+
+9.提交命令后，要push到远程库，输入命令：git push origin XXX（分支名）
+
+10.删除本地仓库命令：rm -rf .git
+
+二、提交文件到仓库
+
+1.查看修改的状态命令：git status
+
+2.添加文件命令：git add XXX（文件名包括后缀） git add .为添加所有改动的文件
+
+3.提交命令:git commit -m “XXX”（注释）
+
+4.提交命令后push到远程库，输入命令：git push origin XXX（分支名）
+
+
+三、拉取文件到本地
+
+1.克隆远程的仓库地址：git clone git_url
+
+2.把远程库上的文件拉下来，输入命令:先git pull orgin XXX（分支名）

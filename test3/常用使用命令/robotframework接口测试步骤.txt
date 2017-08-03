@@ -1,0 +1,75 @@
+安装：
+1.Python安装  https://www.python.org/
+
+2.robotframework安装https://pypi.python.org/pypi/robotframework/2.8.5
+
+3.wxPython安装  http://www.wxpython.org/download.php
+
+4.Robot framework-ride安装 https://pypi.python.org/pypi/robotframework-ride
+
+5.Robot framework-selenium2library安装
+https://pypi.python.org/pypi/robotframework-selenium2library/1.5.0
+
+6.安装python的requests库
+pip install requests
+
+7.安装RFrequests库
+python2 -m pip install -U robotframework-requests
+
+
+
+创建接口测试用例：
+PS：空字符用${EMPTY},转义#号用\#，为None类型用${null}或者None
+
+1.创建测试项目
+选择菜单栏file----->new Project，Name 输入项目名称“接口测试”，Type 选择Directory。
+
+2.创建测试套件
+右键点击测试项目“接口测试”选择new suite，name输入测试套件名称“标签接口”，type 选择File。
+
+3.创建测试用例
+右键点击测试套件“标签接口”选择new Test Case ，用例只需要输入用例name“成功获取标签” ，点击OK即可。
+
+4.导入相关库，最好全部导入。（接口测试只需导入RequestsLibrary库，requests库，Collections库，自动化测试再导入selenium2library库）
+
+在“测试套件”的settings标签页，点击“Library”按钮，弹出输入框，Name输入：要导入的库，例如Selenium2Library ，点击OK 。
+
+5.创建变量
+右键点击“测试用例”选择new scalar,Name输入变量名“${host}”，Value输入变量的值，Comment为备注，点击ok
+
+6.创建资源
+右键点击测试项目“接口测试”选择New Resource，Name输入资源名称“关键字定义”，type选择TXT。
+
+7.创建关键字
+右键资源名称“关键字定义.txt”选择“New User Keyword”来创建用户关键字,Name输入关键字名字“登录”，arguments为参数${XXX}，类似于定函数的输入参数，可以多个变量用|隔开。
+
+举例：登录
+    [Arguments]    ${username}    ${password}#定义两个参数
+    ${header}    Create Dictionary    Content-Type=application/json #定义头信息
+    Create Session    login    ${test_host}    ${header} #创建会话
+    ${data}    Create Dictionary    username=${username}    password=${password}#创建data参数
+    ${loginreq}    Post Request    login    /api/v1/login    ${data}#发起请求
+    ${loginsuccess}    to json    ${loginreq.content} #将结果转换为json格式
+
+8.导入资源
+因为资源“关键字定义.txt”和测试套件“标签接口”属于并列关系。测试套件要想使用资源下的关键字，需要导入资源。在“测试套件”的settings标签页，点击“Resource”按钮，弹出输入框，Path输入资源名称“关键字定义”，点击OK
+
+9.保持登录状态进行接口测试
+点击测试用例“成功获取标签”，点击settings，在Setup输入资源下要使用的关键字名称与其下的参数“登录 | zhouyang@supeq.com | 123456”，点击OK，在Teardown输入delete all sessions。其中Setup用于设置初始化
+工作，在每一个测试用例前先被执行，Teardown在每个测试方法执行后调用，用于用例执行后的清理工作。
+
+10.完善test_case“成功获取标签”
+步骤：创建请求——将结果转换成json格式——用dictionary相关取值方法取出想要的数据——将预期结果转换为相应数据类型——使用断言关键字进行断言
+注意：此处创建请求不需要再创建对话是因为已经预先执行了登录关键字，这里只需要采用登录里的对话名字就可以调用它的cookies保持登录状态。
+*** Test Cases ***
+获取所有标签-成功
+    [Setup]    登录    zhouyang@supeq.com    123456
+    ${lablereq}    Get Request    login    /api/v1/labels    #采用login的session
+    ${lablesuccess}    to json    ${lablereq.content}
+    ${labledata}    Get from dictionary    ${lablesuccess}    data
+    log    ${labledata}
+    ${data0}    Get from dictionary    ${labledata[0]}    color
+    log    ${data0}
+    ${color}    Convert to string    \#a5ca16
+    should be equal    ${data0}    ${color}
+    [Teardown]    delete all sessions
